@@ -11,4 +11,4 @@ gtkmule.o: gtkmule.h gtkmule.cpp
 	$(CXX) $(CFLAGS) -c gtkmule.cpp -o gtkmule.o `pkg-config gtkmm-2.4 --cflags --libs libglademm-2.4 libnotifymm-1.0 appindicator-0.1`
 
 clean:
-	$(RM) -f *.o *~ *.bak gtkmule
+	$(RM) -f *.o *~ *.bak
